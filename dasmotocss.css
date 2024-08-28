@@ -1,0 +1,104 @@
+#maintitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+#image1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    padding: 20px; /* Adjust padding as needed */
+    overflow: hidden; /* Ensure that any overflow content is hidden */
+    justify-content: center;
+  }
+  
+  .container .background-image {
+    position: absolute; /* This ensures the element is removed from the normal document flow and is position with the corrdinates below*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adjust image to cover the container */
+    z-index: -1; /* Ensure the image is behind the text */
+    justify-content: center;
+  }
+  
+  h1 {
+    position: relative;
+    margin: 0;
+    padding: 20px; /* Match this padding with the container's padding */
+    background: rgba(255, 255, 255, 0.4); /* Optional: background color for readability */
+    border-radius: 10px;
+    z-index: 1; /* Ensure the title is above the image */
+  }
+
+  .subtitle1{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: #66ff99;
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .subtitle1 h2{
+    margin: 0px;
+    padding: 1px
+  }
+
+  .h3 {
+    font-family: Helvetica;
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .p{
+    font-size: 20px;
+  }
+
+  .subtitle2{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: lightcoral;
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .subtitle2 h2{
+    margin: 0px;
+    padding: 1px
+  }
+
+  .subtitle3{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: skyblue;
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .subtitle3 h2{
+    margin: 0px;
+    padding: 1px
+  }
